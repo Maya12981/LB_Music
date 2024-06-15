@@ -35,19 +35,19 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", ""
+    "GIT_TOKEN", "None"
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learningbots79")
-SUPPORT_CHAT = getenv("SUPPORT_GROUP", "https://t.me/learning_bots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ARX_OTP")
+SUPPORT_CHAT = getenv("SUPPORT_GROUP", "https://t.me/clash_account_seller")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "None")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "None")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -61,11 +61,11 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "")
-STRING2 = getenv("STRING_SESSION2", "")
-STRING3 = getenv("STRING_SESSION3", "")
-STRING4 = getenv("STRING_SESSION4", "")
-STRING5 = getenv("STRING_SESSION5", "")
+STRING1 = getenv("STRING_SESSION", "None")
+STRING2 = getenv("STRING_SESSION2", "None")
+STRING3 = getenv("STRING_SESSION3", "None")
+STRING4 = getenv("STRING_SESSION4", "None")
+STRING5 = getenv("STRING_SESSION5", "None")
 
 
 BANNED_USERS = filters.user()
